@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
+
 cd "$(dirname "$0")/.."
 
 # trap ctrl-c and call cleanup
@@ -10,7 +11,6 @@ function cleanup() {
   echo -e "\nCleaning up..."
   pkill -F ./tmp/pids/rack-server.pid
 }
-
 
 mkdir -p ./log
 touch ./log/development.log

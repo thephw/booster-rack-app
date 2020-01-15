@@ -1,7 +1,4 @@
-#!/bin/sh
-
-# script/bootstrap: Resolve all dependencies that the application requires to
-#                   run.
+#!/usr/bin/env bash
 
 set -e
 
