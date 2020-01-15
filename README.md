@@ -1,2 +1,2 @@
-# booster-rack-app
+# 🚧 booster-rack-app
 A minimal rack app for testing booster
